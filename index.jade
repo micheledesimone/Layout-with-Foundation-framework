@@ -1,0 +1,91 @@
+doctype html
+html
+	head
+		title Foundation Grid
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width,initial-scale=1")
+		link(rel="stylesheet" href="css/foundation.css")
+		//link(rel="stylesheet" href="css-5/foundation.css")
+		link(rel="stylesheet" href="css/app.css")
+		link(rel="stylesheet" href="css/style.css")
+		link(rel="stylesheet" href="foundation-icons/foundation-icons.css")
+
+	body
+		.row.top-actions
+			.column.small-4
+				h1 SiteName
+				
+			.column.small-8
+				ul.menu.simple.float-right.top-actions
+					li: a.fi-mail(href="")  Newsletter
+					li: a.fi-rss(href="")  RSS
+					li |
+					li(style="margin-right:0"): form.row.collapse
+						.column.small-4: label(style="padding: 0.5625rem 0") Recgsetv
+						.column.small-6: input(type="text")
+						.column.small-2.input-group-botton: input.button.postfix(type="submit" value="Go")
+		
+		.row
+			.column.small-12
+				ul.horizontal.menu.menu-bck
+					li.active: a(href="") Home
+					li: a(href="") Comics
+					li: a(href="") Movies
+					li: a(href="") Concerts
+					li: a(href="") Youtube3
+		.row.top-actions
+			.column.small-12.medium-7.large-5
+				include includes/col-1
+			
+			.column.small-12.medium-5.large-4.ruled
+				include includes/col-2
+			
+			.column.small-12.large-3
+				include includes/col-3
+		
+		footer
+			.row
+				.column.small-12: hr(style="border-width: medium")
+			.row
+				.column.small-2
+					strong Rubicon
+					ul
+						li lorem
+						li ipsum
+						li in a quite
+						li luctus
+				.column.small-2
+					strong Rubicon
+					ul
+						li lorem
+						li ipsum
+						li in a quite
+						li luctus
+				.column.small-2
+					strong Rubicon
+					ul
+						li lorem
+						li ipsum
+						li in a quite
+						li luctus
+				.column.small-2
+					strong Rubicon
+					ul
+						li lorem
+						li ipsum
+						li in a quite
+						li luctus
+				.column.small-2.end
+					strong Rubicon
+					ul
+						li lorem
+						li ipsum
+						li in a quite
+						li luctus
+	
+	
+		script(src="js/vendor/jquery.js")
+		script(src="js/vendor/what-input.js")
+		script(src="js/vendor/foundation.js")
+		script(src="js/app.js")
+			
